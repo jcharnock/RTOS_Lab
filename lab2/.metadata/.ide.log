@@ -1,0 +1,49 @@
+2025-02-19 16:59:42,856 [INFO] Activator:176 - 
+
+
+2025-02-19 16:59:42,873 [INFO] Activator:177 - !SESSION log4j initialized
+2025-02-19 16:59:47,002 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-02-19 16:59:50,091 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753
+2025-02-19 16:59:50,107 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/mcu/
+2025-02-19 16:59:50,108 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/boardmanager/
+2025-02-19 16:59:50,109 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/mcufinder/images/
+2025-02-19 16:59:50,116 [INFO] ApiDb:250 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,118 [INFO] DbMcusAds:125 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,120 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-02-19 16:59:50,242 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-02-19 16:59:50,376 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/mcu/
+2025-02-19 16:59:50,377 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/boardmanager/
+2025-02-19 16:59:50,377 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/mcufinder/images/
+2025-02-19 16:59:50,378 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,378 [INFO] ApiDb:250 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,379 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,380 [INFO] DbMcusAds:125 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,380 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,381 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,381 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-02-19 16:59:50,522 [INFO] MainPanel:264 - HeapMemory: 268435456
+2025-02-19 16:59:50,619 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/mcu/
+2025-02-19 16:59:50,620 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/boardmanager/
+2025-02-19 16:59:50,621 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\/plugins/mcufinder/images/
+2025-02-19 16:59:50,622 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,622 [INFO] ApiDb:250 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,623 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,624 [INFO] DbMcusAds:125 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/
+2025-02-19 16:59:50,625 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,625 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\eec9960\.stmcufinder\plugins\mcufinder/ => C:\Users\eec9960\.stmcufinder\plugins\mcufinder
+2025-02-19 16:59:50,625 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\eec9960\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-02-19 16:59:50,638 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.15.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753
+2025-02-19 16:59:50,640 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-02-19 16:59:50,642 [INFO] PluginManage:310 - Check plugin analytics
+2025-02-19 16:59:50,798 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2025-02-19 16:59:50,799 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2025-02-19 16:59:50,799 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.L4.1.18.0
+2025-02-19 16:59:50,803 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-02-19 16:59:50,803 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-02-19 16:59:50,809 [INFO] CADModel:105 - Init CAD model plugin
+2025-02-19 16:59:50,809 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-02-19 16:59:50,810 [INFO] PluginManage:310 - Check plugin clock
+2025-02-19 16:59:50,821 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-02-19 16:59:50,822 [INFO] PluginManage:310 - Check plugin ddr
+2025-02-19 16:59:50,825 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-02-19 16:59:50,826 [INFO] PluginManage:310 - Check plugin filemanager

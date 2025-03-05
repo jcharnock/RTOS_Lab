@@ -1,0 +1,33 @@
+/*
+ * MutexCtrl.c
+ *
+ *  Created on: Mar 5, 2025
+ *      Author: eec9960
+ */
+
+
+#include "MutexCtrl.h"
+
+osMutexId myMutexHandle01;
+uint8_t buffer[100];
+const int write_size = 60;
+osStatus status;
+
+void init_mutex_and_led(void) {
+	osMutexDef(myMutex01);
+	myMutexHandle01 = osMutexCreate(osMutex(myMutex01));
+	buffer[write_size - 2] = '\r';
+	buffer[write_size - 1] = '\n';
+}
+
+void load_and_flash_led(int numFlashes, int flashPeriod){
+	status = osMutexWait(myMutexHandle01, osWaitForever);
+	int j = 0;
+	while (j < numFlashes){
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+		osDelay(flashPeriod);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+		osDelay(flashPeriod);
+	}
+	osMutexRelease( myMutexHandle01 );
+}
