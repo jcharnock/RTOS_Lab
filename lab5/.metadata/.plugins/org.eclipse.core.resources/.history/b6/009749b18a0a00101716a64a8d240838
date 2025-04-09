@@ -1,0 +1,16 @@
+/*
+ * sharedtasknames.h
+ *
+ *  Created on: Mar 26, 2025
+ *      Author: eec9960
+ */
+
+#ifndef SRC SHAREDTASKNAMES H
+#define SRC SHAREDTASKNAMES H
+
+#include "cmsis_os.h"
+
+extern osThreadId Task01Handle ;
+extern osThreadId Task02Handle ;
+extern osThreadId Task03Handle ;
+#endif /* SRC SHAREDTASKNAMES H
