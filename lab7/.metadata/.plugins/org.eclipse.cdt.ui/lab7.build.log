@@ -1,0 +1,22 @@
+17:07:39 **** Incremental Build of configuration Debug for project lab7 ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:21:
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:128:28: error: 'StartLEDTask2' undeclared (first use in this function); did you mean 'StartLedTask2'?
+  128 |   osThreadDef(myLedTask02, StartLEDTask2, osPriorityNormal, 0, 128);
+      |                            ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:416:11: note: in definition of macro 'osThreadDef'
+  416 | { #name, (thread), (priority), (instances), (stacksz), NULL, NULL }
+      |           ^~~~~~
+../Core/Src/main.c:128:28: note: each undeclared identifier is reported only once for each function it appears in
+  128 |   osThreadDef(myLedTask02, StartLEDTask2, osPriorityNormal, 0, 128);
+      |                            ^~~~~~~~~~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:416:11: note: in definition of macro 'osThreadDef'
+  416 | { #name, (thread), (priority), (instances), (stacksz), NULL, NULL }
+      |           ^~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+
+17:07:40 Build Failed. 2 errors, 0 warnings. (took 806ms)
+
